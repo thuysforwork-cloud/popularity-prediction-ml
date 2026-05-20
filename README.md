@@ -177,7 +177,14 @@ pip install -r requirements.txt
 popularity-prediction-ml/
 │
 ├── data/
+│   ├── raw_data.csv
+│   └── cleaned_data.csv
+│
 ├── notebooks/
+│   ├── 01_KhamPhaDuLieu.ipynb
+│   ├── 02_LamSachDuLieu.ipynb
+│   └── 03_HuanLuyenModel.ipynb
+│
 ├── README.md
 └── requirements.txt
 ```
