@@ -195,7 +195,7 @@ https://github.com/thuysforwork-cloud/popularity-prediction-ml.git
 2. Install required libraries:
 
 ```bash
-pip install -r requirements.txt
+pip install -r Requirements.txt
 ```
 
 3. Open the project using VSCode or Jupyter Notebook.
@@ -215,7 +215,7 @@ popularity-prediction-ml/
 │ └── 03_HuanLuyenModel.ipynb
 │
 ├── README.md
-└── requirements.txt
+└── Requirements.txt
 ```
 
 5. Run notebooks sequentially in the following order:
