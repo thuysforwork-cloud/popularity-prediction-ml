@@ -46,13 +46,13 @@ popularity-prediction-ml/
 ```
 
 ## Data Source
-* Data was collected from:
+Data was collected from:
   - **Dataset**: Spotify Tracks Dataset
   - **Source**: Kaggle
   - **Link**:  https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset
-* Short Description
+Short Description
 
-The dataset contains approximately **114,000 rows** and **20 columns**, including Spotify song information such as:
+* The dataset contains approximately **114,000 rows** and **20 columns**, including Spotify song information such as:
 
 - popularity
 - danceability
