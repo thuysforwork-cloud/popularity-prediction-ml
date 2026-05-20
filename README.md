@@ -60,7 +60,6 @@ Quá trình EDA tập trung vào:
 
 Các phân tích nổi bật gồm:
 
-- Energy vs Popularity
 - Loudness vs Popularity
 - Explicit Content vs Popularity
 - Genre Popularity Analysis
