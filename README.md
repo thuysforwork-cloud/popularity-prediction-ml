@@ -18,6 +18,8 @@ Dự án được thực hiện bởi nhóm **[NHÓM 6]**, với sự đóng gó
 
 ## Cấu trúc Repository 
 ```bash
+popularity-prediction-ml/
+│
 ├── data/                           <- Thư mục chứa dữ liệu
 │   ├── raw_data.csv                <- Dữ liệu gốc tải về (Không chỉnh sửa)
 │   └── cleaned_data.csv            <- Dữ liệu đã làm sạch (Dùng để chạy model)
