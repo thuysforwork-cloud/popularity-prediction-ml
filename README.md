@@ -31,6 +31,9 @@ Dự án được thực hiện bởi nhóm **[NHÓM 6]**, với sự đóng gó
 └── requirements.txt                       <- Danh sách các thư viện cần cài đặt
 
 ## Nguồn dữ liệu (Data Source)
-* Dữ liệu được thu thập từ:[Dataset: Spotify Tracks Dataset] [Source:Kaggle] [https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset?fbclid=IwY2xjawR6Z5VleHRuA2FlbQIxMABicmlkETEwUXlPTXZEeHZHSk9CTGUzc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHvccSChIKJnZsfyoaTQl4-2bZFdDJAIn4mDYwrldRkAPHQoa1SOU6_YNUOJ5_aem_3URjtBLYBrmHS0cgnzX6cQ)]
+* Dữ liệu được thu thập từ:
+  [Dataset: Spotify Tracks Dataset]
+  [Source:Kaggle]
+  [https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset?fbclid=IwY2xjawR6Z5VleHRuA2FlbQIxMABicmlkETEwUXlPTXZEeHZHSk9CTGUzc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHvccSChIKJnZsfyoaTQl4-2bZFdDJAIn4mDYwrldRkAPHQoa1SOU6_YNUOJ5_aem_3URjtBLYBrmHS0cgnzX6cQ)]
 * Mô tả ngắn: Tập dữ liệu gồm khoảng 114,000 dòng và 20 cột, chứa các thông tin liên quan đến bài hát trên Spotify như độ phổ biến (popularity), đặc trưng âm thanh (danceability, energy, loudness, valence, tempo, acousticness, instrumentalness), thông tin nghệ sĩ, thể loại nhạc (genre), duration và explicit content. Các đặc trưng này được sử dụng để phân tích hành vi nghe nhạc và xây dựng mô hình dự đoán popularity của bài hát.
 * 
