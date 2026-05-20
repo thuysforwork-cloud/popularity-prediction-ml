@@ -126,7 +126,7 @@ Kết quả cho thấy Random Forest có khả năng nắm bắt mối quan hệ
 
   Các đặc trưng này được sử dụng để phân tích hành vi nghe nhạc và xây dựng mô hình dự đoán popularity của bài hát.
 ## Kết quả nổi bật (Key Findings)
-* **Về dữ liệu:** Từ kết quả phân tích dữ liệu Spotify, nhóm nhận thấy các bài hát có popularity cao thường mang một số đặc điểm chung như:
+**Về dữ liệu:** Từ kết quả phân tích dữ liệu Spotify, nhóm nhận thấy các bài hát có popularity cao thường mang một số đặc điểm chung như:
 
 - mức energy cao hơn,
 - âm lượng (loudness) lớn hơn,
@@ -140,7 +140,7 @@ Từ những kết quả đó, dự án có thể được ứng dụng trong th
 - Nhà sản xuất âm nhạc có thể tham khảo các đặc điểm âm thanh phổ biến ở những bài hát được yêu thích để định hướng phong cách sản xuất phù hợp hơn với thị hiếu người nghe hiện nay.
 - Người tổ chức sự kiện âm nhạc có thể ưu tiên lựa chọn các bài hát có đặc trưng sôi động, năng lượng cao hoặc thuộc các thể loại được nghe nhiều nhằm tăng khả năng khuấy động không khí và thu hút khán giả.
 
-* **Về mô hình:**
+**Về mô hình:**
   - Random Forest Regressor đạt hiệu suất dự đoán tốt nhất trong các mô hình được thử nghiệm.
   - Mô hình Random Forest cho khả năng nắm bắt mối quan hệ phi tuyến giữa các audio features và popularity hiệu quả hơn các mô hình còn lại.
   - Kết quả dự đoán cho thấy popularity có thể được dự đoán tương đối tốt thông qua các đặc trưng âm nhạc trên Spotify.
