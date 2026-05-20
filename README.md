@@ -160,7 +160,7 @@ Từ những kết quả đó, dự án có thể được ứng dụng trong th
 1. Clone repository về máy:
 
 ```bash
-git clone https://github.com/your-username/popularity-prediction-ml.git
+git clone https://github.com/thuysforwork-cloud/popularity-prediction-ml.git
 ```
 
 2. Cài đặt các thư viện cần thiết:
