@@ -156,5 +156,36 @@ Từ những kết quả đó, dự án có thể được ứng dụng trong th
 
 ## Hướng dẫn chạy code (How to run)
 Để tái tạo lại kết quả của nhóm, vui lòng thực hiện theo các bước sau:
-1. Cài đặt các thư viện cần thiết: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`.
-2. Mở Jupyter Notebook và chạy lần lượt các file trong thư mục `notebooks/` theo thứ tự từ `01` đến `03`.
+
+1. Clone repository về máy:
+
+```bash
+git clone https://github.com/your-username/popularity-prediction-ml.git
+```
+
+2. Cài đặt các thư viện cần thiết:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Mở project bằng VSCode hoặc Jupyter Notebook.
+
+4. Đảm bảo cấu trúc thư mục giữ nguyên như repository gốc:
+
+```bash
+popularity-prediction-ml/
+│
+├── data/
+├── notebooks/
+├── README.md
+└── requirements.txt
+```
+
+5. Chạy lần lượt các notebook trong thư mục `notebooks/` theo thứ tự:
+
+- `01_KhamPhaDuLieu.ipynb`
+- `02_LamSachDuLieu.ipynb`
+- `03_HuanLuyenModel.ipynb`
+
+6. Các notebook đã được cấu hình tự động nhận diện đường dẫn dữ liệu thông qua `Path.cwd()`, vì vậy người dùng chỉ cần mở project đúng cấu trúc thư mục ban đầu.
