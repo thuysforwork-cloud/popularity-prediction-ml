@@ -8,13 +8,13 @@ Hỗ trợ nhà sản xuất âm nhạc định hướng phong cách và đặc 
 Hỗ trợ người tổ chức sự kiện lựa chọn các bài hát có đặc điểm phù hợp nhằm tăng mức độ thu hút khán giả.
 
 ## Thành viên nhóm & Phân công công việc
-Dự án được thực hiện bởi nhóm [NHÓM 6], với sự đóng góp cụ thể của từng thành viên như sau:
+Dự án được thực hiện bởi nhóm **[NHÓM 6]**, với sự đóng góp cụ thể của từng thành viên như sau:
 | Họ và Tên | Vai trò | Chi tiết công việc thực hiện |
 | :--- | :--- | :--- |
-| **Vũ Hoàng Thục Quyên]** | Trưởng nhóm / Data Engineer | Lên ý tưởng, và viết file `02_LamSachDuLieu.ipynb`, xử lý missing values, loại bỏ duplicate rows, xây dựng quy trình deduplicate theo `track_id`, xử lý outliers bằng phương pháp IQR và chuẩn hóa dữ liệu phục vụ huấn luyện mô hình Machine Learning. Tham gia viết file `03_HuanLuyenModel.ipynb` |
-| **[Nguyễn Thị Thanh Thuý]** | Data Quality Analyst | Lên ý tưởng, viết file `02_LamSachDuLieu.ipynb`, kiểm tra chất lượng dữ liệu sau làm sạch, rà soát tính nhất quán của các audio features, hỗ trợ xử lý dữ liệu trùng lặp và kiểm tra kết quả preprocessing trước khi đưa vào giai đoạn huấn luyện mô hình và xuất ra file data chuẩn. Tham gia viết file `03_HuanLuyenModel.ipynb` |
-| **[Dương Minh Ánh]** | EDA Analyst | Viết file `01_KhamPhaDuLieu.ipynb`, khám phá cấu trúc dữ liệu, kiểm tra missing values và duplicate values, thực hiện trực quan hóa dữ liệu và phân tích mối quan hệ giữa các audio features với popularity của bài hát trên Spotify. Tham gia viết file  `03_HuanLuyenModel.ipynb` |
-| **[Nguyễn Hải Yến]** | Visualization Analyst | Tìm kiếm dữ liệu, Tham gia Viết file `01_KhamPhaDuLieu.ipynb` hỗ trợ phân tích EDA, xây dựng các biểu đồ trực quan hóa như `Genre Popularity`, `Artist Popularity` và `Correlation Matrix`, đồng thời tổng hợp insight và phân tích xu hướng nghe nhạc của người dùng Spotify từ dataset. Tham gia viết file  `03_HuanLuyenModel.ipynb` |
+| **Vũ Hoàng Thục Quyên** | Trưởng nhóm / Data Engineer | Lên ý tưởng, và viết file `02_LamSachDuLieu.ipynb`, xử lý missing values, loại bỏ duplicate rows, xây dựng quy trình deduplicate theo `track_id`, xử lý outliers bằng phương pháp IQR và chuẩn hóa dữ liệu phục vụ huấn luyện mô hình Machine Learning. Tham gia viết file `03_HuanLuyenModel.ipynb` |
+| **Nguyễn Thị Thanh Thuý** | Data Quality Analyst | Lên ý tưởng, viết file `02_LamSachDuLieu.ipynb`, kiểm tra chất lượng dữ liệu sau làm sạch, rà soát tính nhất quán của các audio features, hỗ trợ xử lý dữ liệu trùng lặp và kiểm tra kết quả preprocessing trước khi đưa vào giai đoạn huấn luyện mô hình và xuất ra file data chuẩn. Tham gia viết file `03_HuanLuyenModel.ipynb` |
+| **Dương Minh Ánh** | EDA Analyst | Viết file `01_KhamPhaDuLieu.ipynb`, khám phá cấu trúc dữ liệu, kiểm tra missing values và duplicate values, thực hiện trực quan hóa dữ liệu và phân tích mối quan hệ giữa các audio features với popularity của bài hát trên Spotify. Tham gia viết file  `03_HuanLuyenModel.ipynb` |
+| **Nguyễn Hải Yến** | Visualization Analyst | Tìm kiếm dữ liệu, Tham gia Viết file `01_KhamPhaDuLieu.ipynb` hỗ trợ phân tích EDA, xây dựng các biểu đồ trực quan hóa như `Genre Popularity`, `Artist Popularity` và `Correlation Matrix`, đồng thời tổng hợp insight và phân tích xu hướng nghe nhạc của người dùng Spotify từ dataset. Tham gia viết file  `03_HuanLuyenModel.ipynb` |
 
 ## Cấu trúc Repository 
 
