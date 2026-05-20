@@ -39,7 +39,7 @@ popularity-prediction-ml/
 ## Nguồn dữ liệu (Data Source)
 * Dữ liệu được thu thập từ:
   - **Dataset**: Spotify Tracks Dataset
-  - **Source**:Kaggle]
+  - **Source**: Kaggle
   - **Link**: https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset?fbclid=IwY2xjawR6Z5VleHRuA2FlbQIxMABicmlkETEwUXlPTXZEeHZHSk9CTGUzc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHvccSChIKJnZsfyoaTQl4-2bZFdDJAIn4mDYwrldRkAPHQoa1SOU6_YNUOJ5_aem_3URjtBLYBrmHS0cgnzX6cQ
 * Mô tả ngắn: Tập dữ liệu gồm khoảng 114,000 dòng và 20 cột, chứa các thông tin liên quan đến bài hát trên Spotify như
   - độ phổ biến (popularity),
