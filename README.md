@@ -52,18 +52,12 @@ Data was collected from:
   - **Link**:  https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset
     
 **Short Description**: The dataset contains approximately **114,000 rows** and **20 columns**, including Spotify song information such as:
-- popularity
-- danceability
-- energy
-- loudness
-- valence
-- acousticness
-- tempo
-- instrumentalness
-- artist information
-- music genre
-- duration
-- explicit content
+- popularity,
+- audio features (danceability, energy, loudness, valence, tempo, acousticness, instrumentalness),
+- artist information,
+- music genre (genre),
+- duration,
+- explicit content.
 
 ## Project Workflow
 ### Exploratory Data Analysis (EDA)
