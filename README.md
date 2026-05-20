@@ -13,14 +13,20 @@ Based on popularity analysis results, the project aims to support practical appl
 - Supporting event organizers in selecting songs with suitable characteristics to improve audience engagement.
 
 
-## Thành viên nhóm & Phân công công việc
-Dự án được thực hiện bởi nhóm **[NHÓM 6]**, với sự đóng góp cụ thể của từng thành viên như sau:
-| Họ và Tên | Vai trò | Chi tiết công việc thực hiện |
+## Team Members & Task Distribution
+This project was developed by **[GROUP 6]**, with each member contributing to specific parts of the workflow as follows:
+
+| Full Name | Role | Contribution Details |
 | :--- | :--- | :--- |
-| **Vũ Hoàng Thục Quyên** | Trưởng nhóm / Data Engineer | Lên ý tưởng, và viết file `02_LamSachDuLieu.ipynb`, xử lý missing values, loại bỏ duplicate rows, xây dựng quy trình deduplicate theo `track_id`, xử lý outliers bằng phương pháp IQR và chuẩn hóa dữ liệu phục vụ huấn luyện mô hình Machine Learning. Tham gia viết file `03_HuanLuyenModel.ipynb` |
-| **Nguyễn Thị Thanh Thuý** | Data Quality Analyst | Lên ý tưởng, viết file `02_LamSachDuLieu.ipynb`, kiểm tra chất lượng dữ liệu sau làm sạch, rà soát tính nhất quán của các audio features, hỗ trợ xử lý dữ liệu trùng lặp và kiểm tra kết quả preprocessing trước khi đưa vào giai đoạn huấn luyện mô hình và xuất ra file data chuẩn. Tham gia viết file `03_HuanLuyenModel.ipynb` |
-| **Dương Minh Ánh** | EDA Analyst | Viết file `01_KhamPhaDuLieu.ipynb`, khám phá cấu trúc dữ liệu, kiểm tra missing values và duplicate values, thực hiện trực quan hóa dữ liệu và phân tích mối quan hệ giữa các audio features với popularity của bài hát trên Spotify. Tham gia viết file  `03_HuanLuyenModel.ipynb` |
-| **Nguyễn Hải Yến** | Visualization Analyst | Tìm kiếm dữ liệu, Tham gia Viết file `01_KhamPhaDuLieu.ipynb` hỗ trợ phân tích EDA, xây dựng các biểu đồ trực quan hóa như `Genre Popularity`, `Artist Popularity` và `Correlation Matrix`, đồng thời tổng hợp insight và phân tích xu hướng nghe nhạc của người dùng Spotify từ dataset. Tham gia viết file  `03_HuanLuyenModel.ipynb` |
+| **Vũ Hoàng Thục Quyên** | Team Leader / Data Engineer | Proposed project ideas and developed `02_LamSachDuLieu.ipynb`, including missing value handling, duplicate row removal, `track_id` deduplication workflow construction, outlier handling using the IQR method, and data standardization for Machine Learning model training. Participated in developing `03_HuanLuyenModel.ipynb`. |
+| **Nguyễn Thị Thanh Thuý** | Data Quality Analyst | Contributed project ideas and developed `02_LamSachDuLieu.ipynb`, including post-cleaning data quality checking, audio feature consistency validation, duplicate data processing support, preprocessing validation before model training, and exporting the cleaned dataset. Participated in developing `03_HuanLuyenModel.ipynb`. |
+| **Dương Minh Ánh** | EDA Analyst | Developed `01_KhamPhaDuLieu.ipynb`, explored dataset structure, checked missing values and duplicate values, performed data visualization, and analyzed relationships between Spotify audio features and song popularity. Participated in developing `03_HuanLuyenModel.ipynb`. |
+| **Nguyễn Hải Yến** | Visualization Analyst | Collected dataset resources and contributed to `01_KhamPhaDuLieu.ipynb`, supported EDA analysis, created visualization charts such as `Genre Popularity`, `Artist Popularity`, and `Correlation Matrix`, and summarized insights regarding Spotify user listening behavior. Participated in developing `03_HuanLuyenModel.ipynb`. |
+**During the Machine Learning modeling phase, all team members collaboratively contributed to developing and improving `03_HuanLuyenModel.ipynb`.**
+
+- Each member experimented with different Machine Learning algorithms, preprocessing techniques, model evaluation approaches, and hyperparameter tuning strategies to identify the most suitable solution for the popularity prediction problem.
+- After comparing experimental results, the team leader was responsible for consolidating, selecting, and optimizing the best-performing implementations to create the final version of the project model.
+
 
 **Trong giai đoạn xây dựng mô hình Machine Learning, tất cả thành viên trong nhóm đều tham gia phát triển và hoàn thiện file `03_HuanLuyenModel.ipynb`.**
 - Mỗi thành viên thực hiện thử nghiệm các thuật toán, phương pháp tiền xử lý dữ liệu, kỹ thuật đánh giá mô hình và tối ưu tham số khác nhau nhằm tìm ra hướng tiếp cận phù hợp nhất cho bài toán dự đoán popularity.
