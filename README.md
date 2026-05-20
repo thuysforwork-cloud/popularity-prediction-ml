@@ -170,7 +170,7 @@ https://github.com/thuysforwork-cloud/popularity-prediction-ml.git
 2. Cài đặt các thư viện cần thiết:
 
 ```bash
-pip install -r requirements.txt
+pip install -r Requirements.txt
 ```
 
 3. Mở project bằng VSCode hoặc Jupyter Notebook.
