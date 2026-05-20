@@ -124,7 +124,9 @@ Các mô hình được đánh giá bằng:
 
 Kết quả cho thấy Random Forest có khả năng nắm bắt mối quan hệ phi tuyến giữa các audio features và popularity hiệu quả hơn các mô hình còn lại.
 
-  Các đặc trưng này được sử dụng để phân tích hành vi nghe nhạc và xây dựng mô hình dự đoán popularity của bài hát.
+Các đặc trưng này được sử dụng để phân tích hành vi nghe nhạc và xây dựng mô hình dự đoán popularity của bài hát.
+
+**Ngoài việc đánh giá hiệu suất dự đoán, dự án còn thực hiện phân tích residual distribution, actual vs predicted scatter plot và permutation importance nhằm giải thích khả năng dự đoán của mô hình và xác định các audio features ảnh hưởng mạnh nhất đến popularity.**
 ## Kết quả nổi bật (Key Findings)
 **Về dữ liệu:** 
 
