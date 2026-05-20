@@ -144,82 +144,86 @@ Models were evaluated using:
 
 Results indicate that the Random Forest model captures non-linear relationships between audio features and popularity more effectively than the other models.
 
-**In addition to prediction evaluation, the project also conducted:**
+In addition to prediction evaluation, the project also conducted:
 
-- Residual distribution analysis
-- Actual vs Predicted scatter plot analysis
-- Permutation importance analysis
+- **Residual distribution analysis**
+- **Actual vs Predicted scatter plot analysis**
+- **Permutation importance analysis**
 
 to better explain model behavior and identify the most influential audio features affecting popularity.
 
-## Kết quả nổi bật (Key Findings)
-**Về dữ liệu:** 
+## Key Findings
 
-* Các bài hát có mức energy và loudness cao thường xuất hiện nhiều hơn trong nhóm bài hát có popularity cao.
-* Một số genre như pop-film, k-pop và chill có popularity trung bình nổi bật trong dataset.
-* Explicit tracks có popularity trung bình nhỉnh hơn so với non-explicit tracks.
-* Popularity không phụ thuộc hoàn toàn vào một đặc trưng đơn lẻ mà chịu ảnh hưởng từ nhiều yếu tố âm nhạc kết hợp.
-* Một số nghệ sĩ và nghệ sĩ hợp tác có mức popularity trung bình cao hơn đáng kể trong dataset.
+### Data Insights
 
-Từ kết quả phân tích dữ liệu Spotify, nhóm nhận thấy các bài hát có popularity cao thường mang một số đặc điểm chung như:
+- Songs with higher energy and loudness tend to achieve higher popularity.
+- Genres such as pop-film, k-pop, and chill show relatively high average popularity within the dataset.
+- Explicit tracks tend to have slightly higher average popularity compared to non-explicit tracks.
+- Popularity is influenced by combinations of musical characteristics rather than a single feature.
+- Certain artists and artist collaborations demonstrate significantly higher average popularity.
 
-- mức energy cao hơn,
-- âm lượng (loudness) lớn hơn,
-- nhịp điệu sôi động,
-- và xuất hiện nhiều ở các thể loại như pop, k-pop hoặc dance-pop.
+Spotify songs with high popularity commonly exhibit:
 
-Ngoài ra, các bài hát explicit cũng có xu hướng đạt popularity trung bình cao hơn trong dataset.
+- higher energy,
+- louder sound levels,
+- stronger rhythmic characteristics,
+- and frequently belong to genres such as pop, k-pop, or dance-pop.
 
-Từ những kết quả đó, dự án có thể được ứng dụng trong thực tế như:
+### Practical Applications
 
-- Nhà sản xuất âm nhạc có thể tham khảo các đặc điểm âm thanh phổ biến ở những bài hát được yêu thích để định hướng phong cách sản xuất phù hợp hơn với thị hiếu người nghe hiện nay.
-- Người tổ chức sự kiện âm nhạc có thể ưu tiên lựa chọn các bài hát có đặc trưng sôi động, năng lượng cao hoặc thuộc các thể loại được nghe nhiều nhằm tăng khả năng khuấy động không khí và thu hút khán giả.
+Based on the findings:
 
-**Về mô hình:**
-  - Random Forest Regressor đạt hiệu suất dự đoán tốt nhất trong các mô hình được thử nghiệm.
-  - Mô hình Random Forest cho khả năng nắm bắt mối quan hệ phi tuyến giữa các audio features và popularity hiệu quả hơn các mô hình còn lại.
-  - Kết quả dự đoán cho thấy popularity có thể được dự đoán tương đối tốt thông qua các đặc trưng âm nhạc trên Spotify.
-  - Permutation importance analysis cho thấy các đặc trưng như energy, loudness, danceability và valence đóng vai trò quan trọng trong quá trình dự đoán popularity.
+- Music producers may use these insights to better align music production styles with audience preferences.
+- Entertainment event organizers may prioritize energetic and high-engagement songs to improve audience excitement and event atmosphere.
+
+### Model Findings
+
+- The Random Forest Regressor achieved the best overall predictive performance.
+- Random Forest demonstrated superior capability in capturing non-linear relationships between audio features and popularity.
+- Song popularity can be reasonably predicted using Spotify audio features.
+- Permutation importance analysis revealed that features such as energy, loudness, danceability, and valence play important roles in popularity prediction.
+---
 
 ## Hướng dẫn chạy code (How to run)
-Để tái tạo lại kết quả của nhóm, vui lòng thực hiện theo các bước sau:
 
-1. Clone repository về máy:
+To reproduce the project results, follow these steps:
+
+1. Clone the repository:
 
 ```bash
 https://github.com/thuysforwork-cloud/popularity-prediction-ml.git
 ```
 
-2. Cài đặt các thư viện cần thiết:
+2. Install required libraries:
 
 ```bash
-pip install -r Requirements.txt
+pip install -r requirements.txt
 ```
 
-3. Mở project bằng VSCode hoặc Jupyter Notebook.
+3. Open the project using VSCode or Jupyter Notebook.
 
-4. Đảm bảo cấu trúc thư mục giữ nguyên như repository gốc:
+4. Keep the repository structure unchanged:
 
 ```bash
 popularity-prediction-ml/
 │
 ├── data/
-│   ├── raw_data.csv
-│   └── cleaned_data.csv
+│ ├── raw_data.csv
+│ └── cleaned_data.csv
 │
 ├── notebooks/
-│   ├── 01_KhamPhaDuLieu.ipynb
-│   ├── 02_LamSachDuLieu.ipynb
-│   └── 03_HuanLuyenModel.ipynb
+│ ├── 01_KhamPhaDuLieu.ipynb
+│ ├── 02_LamSachDuLieu.ipynb
+│ └── 03_HuanLuyenModel.ipynb
 │
 ├── README.md
-└── Requirements.txt
+└── requirements.txt
 ```
 
-5. Chạy lần lượt các notebook trong thư mục `notebooks/` theo thứ tự:
+5. Run notebooks sequentially in the following order:
 
 - `01_KhamPhaDuLieu.ipynb`
 - `02_LamSachDuLieu.ipynb`
 - `03_HuanLuyenModel.ipynb`
 
-6. Các notebook đã được cấu hình tự động nhận diện đường dẫn dữ liệu thông qua `Path.cwd()`, vì vậy người dùng chỉ cần mở project đúng cấu trúc thư mục ban đầu.
+6. The notebooks are configured to automatically detect dataset paths using `Path.cwd()`, so users only need to maintain the original repository structure. 
