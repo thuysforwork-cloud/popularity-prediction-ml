@@ -28,53 +28,58 @@ This project was developed by **[GROUP 6]**, with each member contributing to sp
 - Each member experimented with different Machine Learning algorithms, preprocessing techniques, model evaluation approaches, and hyperparameter tuning strategies to identify the most suitable solution for the popularity prediction problem.
 - After comparing experimental results, the team leader was responsible for consolidating, selecting, and optimizing the best-performing implementations to create the final version of the project model.
 
-
-**Trong giai đoạn xây dựng mô hình Machine Learning, tất cả thành viên trong nhóm đều tham gia phát triển và hoàn thiện file `03_HuanLuyenModel.ipynb`.**
-- Mỗi thành viên thực hiện thử nghiệm các thuật toán, phương pháp tiền xử lý dữ liệu, kỹ thuật đánh giá mô hình và tối ưu tham số khác nhau nhằm tìm ra hướng tiếp cận phù hợp nhất cho bài toán dự đoán popularity.
-- Sau quá trình thử nghiệm và so sánh kết quả, trưởng nhóm chịu trách nhiệm tổng hợp, lựa chọn và tối ưu các phần triển khai hiệu quả nhất để xây dựng phiên bản mô hình cuối cùng của dự án.
-## Cấu trúc Repository 
+## Repository Structure
 ```bash
 popularity-prediction-ml/
 │
-├── data/                           <- Thư mục chứa dữ liệu
-│   ├── raw_data.csv                <- Dữ liệu gốc tải về (Không chỉnh sửa)
-│   └── cleaned_data.csv            <- Dữ liệu đã làm sạch (Dùng để chạy model)
+├── data/                           <- Dataset directory
+│   ├── raw_data.csv                <- Original raw dataset
+│   └── cleaned_data.csv            <- Cleaned dataset used for modeling
 │
-├── notebooks/                      <- Thư mục chứa code Jupyter Notebook
-│   ├── 01_KhamPhaDuLieu.ipynb      <- Bước 1: Khám phá và vẽ biểu đồ
-│   ├── 02_LamSachDuLieu.ipynb      <- Bước 2: Xử lý dữ liệu lỗi
-│   └── 03_HuanLuyenModel.ipynb     <- Bước 3: Chạy mô hình dự đoán
+├── notebooks/                      <- Jupyter Notebook directory
+│   ├── 01_KhamPhaDuLieu.ipynb      <- Step 1: Exploratory Data Analysis
+│   ├── 02_LamSachDuLieu.ipynb      <- Step 2: Data Cleaning & Preprocessing
+│   └── 03_HuanLuyenModel.ipynb     <- Step 3: Machine Learning Modeling
 │
-└── README.md                       <- Tài liệu hướng dẫn chung của dự án
-└── Requirements.txt                <- Danh sách các thư viện cần cài đặt
+└── README.md                       <- Project documentation
+└── Requirements.txt                <- Required Python libraries
 ```
 
-## Nguồn dữ liệu (Data Source)
-* Dữ liệu được thu thập từ:
+## Data Source
+* Data was collected from:
   - **Dataset**: Spotify Tracks Dataset
   - **Source**: Kaggle
   - **Link**:  https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset
-* Mô tả ngắn: Tập dữ liệu gồm khoảng 114,000 dòng và 20 cột, chứa các thông tin liên quan đến bài hát trên Spotify như
-  - độ phổ biến (popularity),
-  - đặc trưng âm thanh (danceability, energy, loudness, valence, tempo, acousticness, instrumentalness),
-  - thông tin nghệ sĩ,
-  - thể loại nhạc (genre),
-  - duration 
-  - explicit content.
+* Short Description
 
-## Quy trình thực hiện
+The dataset contains approximately **114,000 rows** and **20 columns**, including Spotify song information such as:
+
+- popularity
+- danceability
+- energy
+- loudness
+- valence
+- acousticness
+- tempo
+- instrumentalness
+- artist information
+- music genre
+- duration
+- explicit content
+
+## Project Workflow
 ### Exploratory Data Analysis (EDA)
 
-Quá trình EDA tập trung vào:
+The EDA process focuses on:
 
-- Khám phá cấu trúc dữ liệu
-- Kiểm tra missing values và duplicate values
-- Phân tích phân phối dữ liệu
-- Trực quan hóa mối quan hệ giữa các audio features và popularity
-- Phân tích popularity giữa các genre và nghệ sĩ
-- Khám phá xu hướng nghe nhạc của người dùng Spotify
+- Exploring dataset structure
+- Detecting missing values and duplicate values
+- Analyzing data distributions
+- Visualizing relationships between audio features and popularity
+- Analyzing popularity across genres and artists
+- Exploring Spotify user listening behavior trends
 
-Các phân tích nổi bật gồm:
+Key analyses include:
 
 - Loudness vs Popularity
 - Explicit Content vs Popularity
@@ -86,16 +91,16 @@ Các phân tích nổi bật gồm:
 
 ### Data Cleaning
 
-Dữ liệu được làm sạch thông qua các bước:
+Data preprocessing includes:
 
-- Xóa cột không cần thiết
-- Xử lý missing values
-- Loại bỏ duplicate values
-- Deduplicate theo `track_id`
-- Xử lý outliers bằng phương pháp IQR
-- Chuẩn hóa dữ liệu trước khi huấn luyện mô hình
+- Removing unnecessary columns
+- Handling missing values
+- Removing duplicate values
+- Deduplicating repeated `track_id` entries
+- Handling outliers using the IQR method
+- Standardizing features before model training
 
-Sau khi xử lý, dữ liệu sạch được lưu dưới dạng:
+After preprocessing, the cleaned dataset is stored as:
 
 ```bash
 cleaned_data.csv
@@ -105,43 +110,48 @@ cleaned_data.csv
 
 ### Machine Learning Model
 
-Dự án xây dựng mô hình Machine Learning nhằm dự đoán độ phổ biến của bài hát dựa trên các đặc trưng âm nhạc.
+The project builds Machine Learning models to predict Spotify song popularity based on audio features.
 
-Quy trình gồm:
+The workflow includes:
 
-- Chia train/test set
+- Train-test splitting
 - Feature preprocessing
-- Huấn luyện mô hình
+- Model training
 - Hyperparameter tuning
 - Model comparison
-- Đánh giá hiệu suất dự đoán
+- Prediction performance evaluation
 - Permutation importance analysis
 
-Các thuật toán Machine Learning được sử dụng để so sánh và đánh giá khả năng dự đoán popularity gồm:
+The following Machine Learning algorithms were implemented and compared:
 
 - Linear Regression
 - Decision Tree Regressor
 - Random Forest Regressor
 - Gradient Boosting Regressor
 
-Trong các mô hình đã thử nghiệm, Random Forest Regressor đạt hiệu suất dự đoán tốt nhất.
+Among all tested models, the **Random Forest Regressor** achieved the best predictive performance.
 
 ---
 
 ### Model Evaluation Metrics
 
-Các mô hình được đánh giá bằng:
+Models were evaluated using:
 
 - MAE (Mean Absolute Error)
 - MSE (Mean Squared Error)
 - RMSE (Root Mean Squared Error)
 - R² Score
 
-Kết quả cho thấy Random Forest có khả năng nắm bắt mối quan hệ phi tuyến giữa các audio features và popularity hiệu quả hơn các mô hình còn lại.
+Results indicate that the Random Forest model captures non-linear relationships between audio features and popularity more effectively than the other models.
 
-Các đặc trưng này được sử dụng để phân tích hành vi nghe nhạc và xây dựng mô hình dự đoán popularity của bài hát.
+**In addition to prediction evaluation, the project also conducted:**
 
-**Ngoài việc đánh giá hiệu suất dự đoán, dự án còn thực hiện phân tích residual distribution, actual vs predicted scatter plot và permutation importance nhằm giải thích khả năng dự đoán của mô hình và xác định các audio features ảnh hưởng mạnh nhất đến popularity.**
+- Residual distribution analysis
+- Actual vs Predicted scatter plot analysis
+- Permutation importance analysis
+
+to better explain model behavior and identify the most influential audio features affecting popularity.
+
 ## Kết quả nổi bật (Key Findings)
 **Về dữ liệu:** 
 
