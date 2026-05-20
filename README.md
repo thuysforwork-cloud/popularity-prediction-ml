@@ -43,5 +43,6 @@ Dự án được thực hiện bởi nhóm **[NHÓM 6]**, với sự đóng gó
   - thể loại nhạc (genre),
   - duration 
   - explicit content.
+    
   Các đặc trưng này được sử dụng để phân tích hành vi nghe nhạc và xây dựng mô hình dự đoán popularity của bài hát.
 * 
