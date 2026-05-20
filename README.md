@@ -17,8 +17,7 @@ Dự án được thực hiện bởi nhóm **[NHÓM 6]**, với sự đóng gó
 | **Nguyễn Hải Yến** | Visualization Analyst | Tìm kiếm dữ liệu, Tham gia Viết file `01_KhamPhaDuLieu.ipynb` hỗ trợ phân tích EDA, xây dựng các biểu đồ trực quan hóa như `Genre Popularity`, `Artist Popularity` và `Correlation Matrix`, đồng thời tổng hợp insight và phân tích xu hướng nghe nhạc của người dùng Spotify từ dataset. Tham gia viết file  `03_HuanLuyenModel.ipynb` |
 
 ## Cấu trúc Repository 
-
-.
+```bash
 ├── data/                           <- Thư mục chứa dữ liệu
 │   ├── raw_data.csv                <- Dữ liệu gốc tải về (Không chỉnh sửa)
 │   └── cleaned_data.csv            <- Dữ liệu đã làm sạch (Dùng để chạy model)
@@ -30,6 +29,7 @@ Dự án được thực hiện bởi nhóm **[NHÓM 6]**, với sự đóng gó
 │
 └── README.md                       <- Tài liệu hướng dẫn chung của dự án
 └── requirements.txt                       <- Danh sách các thư viện cần cài đặt
+```
 
 ## Nguồn dữ liệu (Data Source)
 * Dữ liệu được thu thập từ:
