@@ -1,11 +1,17 @@
 #  Popularity Prediction for Spotify Tracks using Machine Learning
-Dự án sử dụng Python để phân tích dữ liệu bài hát trên Spotify nhằm khám phá các yếu tố ảnh hưởng đến độ phổ biến (popularity) của bài hát và xây dựng mô hình Machine Learning dự đoán popularity dựa trên các đặc trưng âm nhạc.
-Thông qua việc phân tích hành vi nghe nhạc của người dùng Spotify, dự án hướng tới ứng dụng thực tiễn trong lĩnh vực sản xuất âm nhạc và tổ chức sự kiện giải trí.
-## Mục tiêu dự án
-Dự án tập trung phân tích mối quan hệ giữa các đặc trưng âm nhạc và độ phổ biến của bài hát trên Spotify nhằm hiểu rõ hơn về hành vi nghe nhạc của người dùng.
-Từ kết quả phân tích popularity, dự án hướng tới các ứng dụng thực tiễn như:
-Hỗ trợ nhà sản xuất âm nhạc định hướng phong cách và đặc điểm bài hát phù hợp với thị hiếu người nghe.
-Hỗ trợ người tổ chức sự kiện lựa chọn các bài hát có đặc điểm phù hợp nhằm tăng mức độ thu hút khán giả.
+
+This project uses Python to analyze Spotify song data in order to explore the factors influencing song popularity and build Machine Learning models to predict popularity based on audio features.
+Through analyzing Spotify user listening behavior, the project aims to provide practical applications in the music production and entertainment event industry.
+
+## Project Objectives
+
+The project focuses on analyzing the relationship between Spotify audio features and song popularity to better understand consumer listening behavior.
+
+Based on popularity analysis results, the project aims to support practical applications such as:
+
+- Assisting music producers in identifying song characteristics that better match listener preferences.
+- Supporting event organizers in selecting songs with suitable characteristics to improve audience engagement.
+
 
 ## Thành viên nhóm & Phân công công việc
 Dự án được thực hiện bởi nhóm **[NHÓM 6]**, với sự đóng góp cụ thể của từng thành viên như sau:
