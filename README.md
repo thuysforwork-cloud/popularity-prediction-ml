@@ -142,7 +142,7 @@ Models were evaluated using:
 
 Results indicate that the Random Forest model captures non-linear relationships between audio features and popularity more effectively than the other models.
 
-In addition to prediction evaluation, the project also conducted:
+### In addition to prediction evaluation, the project also conducted:
 
 - **Residual distribution analysis**
 - **Actual vs Predicted scatter plot analysis**
