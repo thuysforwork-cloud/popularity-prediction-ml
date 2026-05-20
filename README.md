@@ -30,7 +30,7 @@ popularity-prediction-ml/
 │   └── 03_HuanLuyenModel.ipynb     <- Bước 3: Chạy mô hình dự đoán
 │
 └── README.md                       <- Tài liệu hướng dẫn chung của dự án
-└── requirements.txt                       <- Danh sách các thư viện cần cài đặt
+└── Requirements.txt                       <- Danh sách các thư viện cần cài đặt
 ```
 
 ## Nguồn dữ liệu (Data Source)
@@ -186,7 +186,7 @@ popularity-prediction-ml/
 │   └── 03_HuanLuyenModel.ipynb
 │
 ├── README.md
-└── requirements.txt
+└── Requirements.txt
 ```
 
 5. Chạy lần lượt các notebook trong thư mục `notebooks/` theo thứ tự:
