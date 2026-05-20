@@ -50,9 +50,8 @@ Data was collected from:
   - **Dataset**: Spotify Tracks Dataset
   - **Source**: Kaggle
   - **Link**:  https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset
-Short Description
-
-* The dataset contains approximately **114,000 rows** and **20 columns**, including Spotify song information such as:
+    
+Short Description: The dataset contains approximately **114,000 rows** and **20 columns**, including Spotify song information such as:
 
 - popularity
 - danceability
