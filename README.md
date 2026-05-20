@@ -16,7 +16,7 @@ Dự án được thực hiện bởi nhóm **[NHÓM 6]**, với sự đóng gó
 | **Dương Minh Ánh** | EDA Analyst | Viết file `01_KhamPhaDuLieu.ipynb`, khám phá cấu trúc dữ liệu, kiểm tra missing values và duplicate values, thực hiện trực quan hóa dữ liệu và phân tích mối quan hệ giữa các audio features với popularity của bài hát trên Spotify. Tham gia viết file  `03_HuanLuyenModel.ipynb` |
 | **Nguyễn Hải Yến** | Visualization Analyst | Tìm kiếm dữ liệu, Tham gia Viết file `01_KhamPhaDuLieu.ipynb` hỗ trợ phân tích EDA, xây dựng các biểu đồ trực quan hóa như `Genre Popularity`, `Artist Popularity` và `Correlation Matrix`, đồng thời tổng hợp insight và phân tích xu hướng nghe nhạc của người dùng Spotify từ dataset. Tham gia viết file  `03_HuanLuyenModel.ipynb` |
 
-**Trong giai đoạn xây dựng mô hình Machine Learning, tất cả thành viên trong nhóm đều tham gia phát triển và hoàn thiện file `03_HuanLuyenModel.ipynb`. 
+**Trong giai đoạn xây dựng mô hình Machine Learning, tất cả thành viên trong nhóm đều tham gia phát triển và hoàn thiện file `03_HuanLuyenModel.ipynb`.**
 - Mỗi thành viên thực hiện thử nghiệm các thuật toán, phương pháp tiền xử lý dữ liệu, kỹ thuật đánh giá mô hình và tối ưu tham số khác nhau nhằm tìm ra hướng tiếp cận phù hợp nhất cho bài toán dự đoán popularity.
 - Sau quá trình thử nghiệm và so sánh kết quả, trưởng nhóm chịu trách nhiệm tổng hợp, lựa chọn và tối ưu các phần triển khai hiệu quả nhất để xây dựng phiên bản mô hình cuối cùng của dự án.
 ## Cấu trúc Repository 
