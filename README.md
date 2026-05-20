@@ -22,6 +22,7 @@ This project was developed by **[GROUP 6]**, with each member contributing to sp
 | **Nguyễn Thị Thanh Thuý** | Data Quality Analyst | Contributed project ideas and developed `02_LamSachDuLieu.ipynb`, including post-cleaning data quality checking, audio feature consistency validation, duplicate data processing support, preprocessing validation before model training, and exporting the cleaned dataset. Participated in developing `03_HuanLuyenModel.ipynb`. |
 | **Dương Minh Ánh** | EDA Analyst | Developed `01_KhamPhaDuLieu.ipynb`, explored dataset structure, checked missing values and duplicate values, performed data visualization, and analyzed relationships between Spotify audio features and song popularity. Participated in developing `03_HuanLuyenModel.ipynb`. |
 | **Nguyễn Hải Yến** | Visualization Analyst | Collected dataset resources and contributed to `01_KhamPhaDuLieu.ipynb`, supported EDA analysis, created visualization charts such as `Genre Popularity`, `Artist Popularity`, and `Correlation Matrix`, and summarized insights regarding Spotify user listening behavior. Participated in developing `03_HuanLuyenModel.ipynb`. |
+
 **During the Machine Learning modeling phase, all team members collaboratively contributed to developing and improving `03_HuanLuyenModel.ipynb`.**
 
 - Each member experimented with different Machine Learning algorithms, preprocessing techniques, model evaluation approaches, and hyperparameter tuning strategies to identify the most suitable solution for the popularity prediction problem.
