@@ -47,7 +47,7 @@ popularity-prediction-ml/
   - explicit content.
 
 ## Quy trình thực hiện
-# Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA)
 
 Quá trình EDA tập trung vào:
 
@@ -69,7 +69,7 @@ Các phân tích nổi bật gồm:
 
 ---
 
-# Data Cleaning
+### Data Cleaning
 
 Dữ liệu được làm sạch thông qua các bước:
 
@@ -88,7 +88,7 @@ cleaned_data.csv
 
 ---
 
-# 🤖 Machine Learning Model
+### Machine Learning Model
 
 Dự án xây dựng mô hình Machine Learning nhằm dự đoán độ phổ biến của bài hát dựa trên các đặc trưng âm nhạc.
 
@@ -113,7 +113,7 @@ Trong các mô hình đã thử nghiệm, Random Forest Regressor đạt hiệu 
 
 ---
 
-# Model Evaluation Metrics
+### Model Evaluation Metrics
 
 Các mô hình được đánh giá bằng:
 
