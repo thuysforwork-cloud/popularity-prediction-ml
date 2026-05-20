@@ -126,7 +126,15 @@ Kết quả cho thấy Random Forest có khả năng nắm bắt mối quan hệ
 
   Các đặc trưng này được sử dụng để phân tích hành vi nghe nhạc và xây dựng mô hình dự đoán popularity của bài hát.
 ## Kết quả nổi bật (Key Findings)
-**Về dữ liệu:** Từ kết quả phân tích dữ liệu Spotify, nhóm nhận thấy các bài hát có popularity cao thường mang một số đặc điểm chung như:
+**Về dữ liệu:** 
+
+* Các bài hát có mức energy và loudness cao thường xuất hiện nhiều hơn trong nhóm bài hát có popularity cao.
+* Một số genre như pop-film, k-pop và chill có popularity trung bình nổi bật trong dataset.
+* Explicit tracks có popularity trung bình nhỉnh hơn so với non-explicit tracks.
+* Popularity không phụ thuộc hoàn toàn vào một đặc trưng đơn lẻ mà chịu ảnh hưởng từ nhiều yếu tố âm nhạc kết hợp.
+* Một số nghệ sĩ và nghệ sĩ hợp tác có mức popularity trung bình cao hơn đáng kể trong dataset.
+
+Từ kết quả phân tích dữ liệu Spotify, nhóm nhận thấy các bài hát có popularity cao thường mang một số đặc điểm chung như:
 
 - mức energy cao hơn,
 - âm lượng (loudness) lớn hơn,
